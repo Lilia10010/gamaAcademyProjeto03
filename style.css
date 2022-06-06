@@ -1,0 +1,66 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color: #f6f7fb;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  height: 100vh;
+}
+h2
+{
+  margin-bottom: 30px;
+}
+p
+{
+  max-width: 350px;
+  text-align: center;
+  color: #979797;
+  margin-bottom: 20px;
+}
+#formulario
+{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+}
+
+input
+{
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  border: 0;
+  border-radius: 6px;
+  padding: 8px 30px;
+  margin: 5px;
+  font-size: 14px;
+  background: rgba(113, 146, 206, 0.171);
+}
+.btn
+{
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+    background: cornflowerblue;
+    transition: 0.3s;
+}
+.btn:hover
+{
+  background: rgb(84, 131, 218);
+}
